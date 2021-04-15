@@ -7,7 +7,7 @@ async def main(connection):
     component = iterm2.StatusBarComponent(
         short_description="kubectl context",
         detailed_description="The currently configured Kubernetes context for kubectl",
-        exemplar="⎈ docker-for-desktop",
+        exemplar="⎈ k8s-cluster",
         update_cadence=2,
         identifier="engineering.dane.iterm-components.kubectl-context",
         knobs=[],
